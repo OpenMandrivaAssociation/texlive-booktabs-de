@@ -1,3 +1,9 @@
+# revision 21907
+# category Package
+# catalog-ctan /macros/latex/contrib/booktabs-de
+# catalog-date 2011-03-30 22:23:52 +0200
+# catalog-license gpl
+# catalog-version 1.61803
 Name:		texlive-booktabs-de
 Version:	1.61803
 Release:	1
@@ -22,6 +28,7 @@ This is a "translation" of the booktabs.
 %doc %{_texmfdistdir}/doc/latex/booktabs-de/booktabs-de.dtx
 %doc %{_texmfdistdir}/doc/latex/booktabs-de/booktabs-de.ins
 %doc %{_texmfdistdir}/doc/latex/booktabs-de/booktabs-de.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -32,3 +39,5 @@ This is a "translation" of the booktabs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
