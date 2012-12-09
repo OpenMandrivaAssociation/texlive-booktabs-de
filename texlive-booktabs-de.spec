@@ -36,3 +36,17 @@ This is a "translation" of the booktabs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.61803-2
++ Revision: 749838
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.61803-1
++ Revision: 717969
+- texlive-booktabs-de
+- texlive-booktabs-de
+- texlive-booktabs-de
+- texlive-booktabs-de
+
