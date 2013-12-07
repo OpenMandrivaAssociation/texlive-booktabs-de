@@ -6,7 +6,7 @@
 # catalog-version 1.61803
 Name:		texlive-booktabs-de
 Version:	1.61803
-Release:	2
+Release:	3
 Summary:	German version of booktabs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs-de
