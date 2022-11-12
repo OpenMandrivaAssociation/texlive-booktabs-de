@@ -1,18 +1,12 @@
-# revision 21907
-# category Package
-# catalog-ctan /macros/latex/contrib/booktabs-de
-# catalog-date 2011-03-30 22:23:52 +0200
-# catalog-license gpl
-# catalog-version 1.61803
 Name:		texlive-booktabs-de
-Version:	1.61803
-Release:	11
+Version:	21907
+Release:	1
 Summary:	German version of booktabs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs-de
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.r21907.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.doc.r21907.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,24 +23,10 @@ This is a "translation" of the booktabs.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.61803-2
-+ Revision: 749838
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.61803-1
-+ Revision: 717969
-- texlive-booktabs-de
-- texlive-booktabs-de
-- texlive-booktabs-de
-- texlive-booktabs-de
-
