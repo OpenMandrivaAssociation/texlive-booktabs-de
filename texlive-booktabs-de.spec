@@ -5,8 +5,8 @@ Summary:	German version of booktabs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs-de
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.r21907.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.doc.r21907.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
