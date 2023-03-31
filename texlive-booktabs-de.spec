@@ -1,6 +1,6 @@
 Name:		texlive-booktabs-de
 Version:	21907
-Release:	1
+Release:	2
 Summary:	German version of booktabs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs-de
