@@ -3,7 +3,7 @@ Version:	21907
 Release:	2
 Summary:	German version of booktabs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs-de
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/booktabs-de
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs-de.doc.r%{version}.tar.xz
